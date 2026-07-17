@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* div{
+        background-color: red;
+    } */
+     *{
+        margin: 0;
+        padding: 0;
+     }
+     .red{
+        background-color:red;
+     }
+     #green
+     {
+        background-color: green;
+     }
+     div > p{ 
+        /* div ka first child paragraph  element access karte hai jo direct div ke contact me ho  */
+        color: blue;
+        background-color: brown;
+     }
+     div p{ 
+        /* div ke paragraph element ko access karta hai vo chahe contact me ho ya nahi ho  */
+        color: blue;
+        background-color: brown;
+     }
+     p:first-child{
+        background-color: aqua;
+     }
+     a:link{
+        color: blue;
+     }
+     a:active{
+        background-color: red;
+     }
+     a:visited{
+        background-color: yellow;
+     }
+     a:hover{
+        background-color: yellow;
+     }
+
+</style>
+<body>
+   <main class="one">
+    <p>I am first </p>
+    <p>I am second </p>
+   </main>
+   <div class="red">
+    I am a div 
+    <article>
+        <p>I am para inside the div </p>
+    </article>
+   </div>
+   <div id="green">
+    I am another div
+    <p>HEy this is mic testing </p>
+   </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.facebook2.com">Go to Facebook</a>
+</body>
+</html>
