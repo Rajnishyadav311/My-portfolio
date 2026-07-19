@@ -84,3 +84,17 @@ p{
 .project h3{
     color: rgb(46, 46, 225);
 }
+.social-links{
+    margin-top: 10px;
+}
+
+.social-links a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.social-links a:hover{
+    color: #00bfff;
+}
