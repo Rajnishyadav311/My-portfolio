@@ -10,6 +10,9 @@ header{
     background-color: rgb(150, 92, 104);
     color: white;
     padding: 30px 20px;  
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 .profile{
     width: 140px;
@@ -57,7 +60,7 @@ p{
     border-radius: 20px;
 }
 .CSS{
-    width: 80%;
+    width: 90%;
     height: 10px;
     background-color: blue;
     border-radius: 20px;
@@ -69,10 +72,16 @@ p{
     border-radius: 20px; 
 }
 .DSA{
-       width: 15%;
+       width: 20%;
     height: 10px;
     background-color: blue;
     border-radius: 20px; 
+}
+.Javascript{
+     width: 30%;
+    height: 10px;
+    background-color: blue;
+    border-radius: 20px;
 }
 .project{
     background-color: aquamarine;
